@@ -1,0 +1,1 @@
+<?phpclass TimeCategory extends TimeCategoryAppModel {    var $name = 'TimeCategory';      /*  public $hasMany = array(			'CancelChargeManagement' => array(			 'className' => 'CancelChargeManagement',			 'foreignKey' => 'id'		)    ); */}?>

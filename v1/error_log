@@ -1,0 +1,4 @@
+[07-Oct-2015 11:03:10 Etc/GMT] PHP Fatal error:  Can't use function return value in write context in /home/supertm4/public_html/v1/index.php on line 285
+[07-Oct-2015 11:03:25 Etc/GMT] PHP Fatal error:  Can't use function return value in write context in /home/supertm4/public_html/v1/index.php on line 285
+[07-Oct-2015 11:03:51 Etc/GMT] PHP Fatal error:  Can't use function return value in write context in /home/supertm4/public_html/v1/index.php on line 285
+[07-Oct-2015 11:04:53 Etc/GMT] PHP Fatal error:  Can't use function return value in write context in /home/supertm4/public_html/v1/index.php on line 286

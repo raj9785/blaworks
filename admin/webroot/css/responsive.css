@@ -1,0 +1,1084 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container { width: 100%}
+
+@media screen and (max-width: 1024px) { 
+
+.bookingWrap ul li { margin-right: 16px}
+.bookingWrap ul li a { padding: 7px; font-size: 17px}
+
+.desitnationWrap .BoxDesign .overlay { padding-top: 54%}
+.StickyFooter {
+  background: rgba(0, 0, 0, 0) url("../img/scroll-bg-footer.jpg") no-repeat scroll 0 0;
+  bottom: 0;
+  box-shadow: 1px -3px 5px -2px rgb(0, 0, 0);
+  display: none;
+  height: 129px;
+  line-height: 60px;
+  padding-top: 6px;
+  position: fixed;
+  width: 100%;
+}
+.desitnationWrap .pull-right {
+  float: right !important;
+  margin-right: 50px;
+}
+ul.superTabs li a {
+  color: #4c4c4c;
+  display: block;
+  padding: 0 35px 20px;
+  text-decoration: none;
+}
+.ulbox {
+  min-height: 220px;
+}
+.bookingWrap ul li {
+  margin-right: 5px;
+}
+.bookingWrap ul li:last-child {
+  width: 21%;
+}
+.bookingWrap ul li {
+  margin-right: 8px;
+}
+.carBox img {
+  height: 120px;
+  width: 100%;
+}
+.carBox .imgBox {
+  height: auto;
+}
+.container {
+  overflow: hidden;
+}
+
+
+}
+
+@media screen and (max-width: 768px) { 
+
+#header { padding: 5px 0}
+
+.bookingWrap ul li { margin-right: 0px; width: 19%}
+.bookingWrap ul li a { padding: 7px 0; font-size: 14px}
+
+#header .rightButtons a.signUp { font-size: 15px}
+#header .rightButtons a.signIn { font-size: 15px}
+
+.desitnationWrap .BoxDesign .overlay { padding-top: 24%}
+.desitnationWrap .BoxDesign .overlay h5 { font-size: 20px}
+.desitnationWrap .BoxDesign .overlay p { font-size: 13px}
+.desitnationWrap .BoxDesign .overlay a.bookBtn { width: auto}
+
+.testimonialBlock .testimonialSlider { min-height: 250px}
+
+.outerLoginWrap { width: 80%}
+.outerLoginWrap .s_icon { margin-bottom: 10px}
+
+
+.booking_Wrap ul.nav li { width: 25%; margin: 0px 5px 5px 0 }
+
+
+#header .choose_city {
+  min-width: 127px;
+}
+.ulbox {
+  border: 1px solid #bdbdbd;
+  font-size: 16px;
+  min-height: 215px;
+  padding: 18px 10px 2px;
+}
+ul.superTabs li a {
+  padding: 0 26px 20px;
+}
+.carBox img {
+  height: 120px;
+  width: 100%;
+}
+.carBox .imgBox {
+  height: auto;
+}
+.carBox h2 {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.carBox p {
+  font-size: 15px;
+  margin-left: 10px;
+}
+#Hatchback .col-sm-3 {
+  padding: 0 10px;
+}
+.StickyFooter {
+  background: rgba(0, 0, 0, 0) url("../img/scroll-bg-footer.jpg") no-repeat scroll 0 0;
+  bottom: 0;
+  box-shadow: 1px -3px 5px -2px rgb(0, 0, 0);
+  display: none;
+  height: 129px;
+  line-height: 60px;
+  padding-top: 6px;
+  position: fixed;
+  width: 100%;
+}
+#header .signIn_box {
+  float: right;
+  margin-left: 15px;
+  min-width: 153px;
+}
+.desitnationWrap .pull-right {
+  float: right !important;
+  margin-right: 50px;
+}
+
+.container {
+  overflow: hidden;
+}
+.applynowcpn {
+  font-size: 12px;
+}
+.booking_Wrap ul.nav li {
+  margin: 0 5px 5px 0;
+  width: 23.9%;
+}
+.booknow_wrap .tripInfoWrap .col-sm-4, .booknow_wrap .tripInfoWrap .col-sm-8 {
+  width: 50%;
+}
+
+}
+
+@media screen and (max-width: 767px) { 
+
+#header { position: static; background:rgba(0, 0, 0, 0.66) none repeat scroll 0 0 !important;}
+#header .mainLogo {
+  text-align: center;
+  width: 100%;
+}
+.mainLogo img {
+  width: 210px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#header .mainLogo a {  color: #383838}
+.darkHeader .mainLogo a { color: #383838}
+
+
+#header .rightButtons a.signUp { font-size: 16px; margin: 15px 0}
+#header .rightButtons a.signIn { font-size: 16px; margin: 15px 0}
+
+/*.bookingWrap { margin-top: 0}*/
+.bookingWrap {
+  margin-bottom: 30px;
+  margin-top:-390px;
+  position: relative;
+}
+.bookingWrap ul li a { font-size: inherit}
+.bookingWrap ul li { width: 32%; margin-bottom: 5px}
+
+.desitnationWrap .BoxDesign { }
+.superSpecial .superBox ul { min-height: inherit}
+
+.myAccount_wrap .sideBar { min-height: inherit}
+.myAccount_wrap .tab-content .profileWrap .profileHeader .userPic { margin: auto}
+
+#header .choose_city {
+  float: none;
+  margin-left: 0;
+  min-width: 100%;
+}
+#header .signIn_box {
+  float: none;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.bookingWrap ul li:last-child {
+  width: 32%;
+}
+.bx-viewport {
+  height: 400px !important;
+}
+.mainSlider ul li img {
+  height: 210px;
+  width: 100%;
+}
+.carBox .imgBox {
+  height: auto;
+}
+.container {
+  overflow: hidden;
+}
+
+#header .choose_city {
+  display: inline-block;
+  float: none;
+  margin-left: 0;
+  min-width: 32%;
+  vertical-align: top;
+  width: 32%;
+}
+#header .signIn_box {
+  display: inline-block;
+  float: none;
+  margin: 0 9px;
+  vertical-align: top;
+  width: 32%;
+}
+#header .support {
+  min-width: 32%;
+  padding: 3px 0;
+  width: 32%;
+}
+
+.popUpWrap .inputBox .input_text {
+  width: 100%;
+}
+.carBox img {
+  height: auto;
+  width: 100%;
+}
+.booking_Wrap ul.nav li {
+  margin: 0 5px 5px 0;
+  width: 23.9%;
+}
+.applynowcpn {
+  font-size: 12px;
+}
+.booknow_wrap .tripInfoWrap .col-sm-4, .booknow_wrap .tripInfoWrap .col-sm-8 {
+  width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 630px) { 
+
+.bookingWrap ul li { width: 48%}
+.bookingWrap ul li:last-child {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+#footer .sliderWrap ul li { }
+#footer .sliderWrap .bx-controls-direction { position: static}
+
+.testimonialBlock .testimonialSlider { min-height: 280px}
+
+#header .support { width: 45%;margin-top: 5px;}
+#header .signIn_box { width: 48%; float:left; min-width: 157px;}
+
+.popUpWrap .social_signIn .s_icon { margin-bottom: 10px}
+.popUpWrap .social_signIn .s_icon a i { padding: 12px}
+.bdrLeft { display: none}
+
+.popUpWrap { position: absolute}
+
+.StickyFooter { background-size: cover}
+.StickyFooter .socialLinks { line-height: normal}
+.StickyFooter .socialLinks span a { line-height: normal; width: 25px; height: 25px; font-size: 15px}
+.StickyFooter .socialLinks h2 { font-size: 25px}
+.StickyFooter .downloadsBtn h3 { display: none}
+.StickyFooter .downloadsBtn { line-height: 60px}
+.StickyFooter .downloadsBtn .appbtn {max-width: 110px}
+.StickyFooter .downloadsBtn .appbtn img { width: 100%; height: auto}
+
+.booking_Wrap ul.nav li { width: 30%; margin: 0px 5px 5px 0 }
+
+.signIn_box .pull-right { float: none !important}
+
+#header .signIn_box .dropdown-menu { left: 0; right: 0; margin: auto}
+
+ul.superTabs li:first-child {
+  padding-left: 10px;
+}
+ul.superTabs li {
+  width: 32%;
+}
+ul.superTabs li:nth-child(4) {
+  width: 65%;
+}
+ul.superTabs li a {
+  border-bottom: 1px solid #eee;
+  color: #4c4c4c;
+  display: block;
+  font-size: 15px;
+  padding: 10px 0;
+  text-decoration: none;
+}
+.StickyFooter .col-sm-5 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.mainSlider ul li {
+  float: none;
+  width: 100% !important;
+}
+
+.popUpWrap .inputBox .input_text {
+  width: 100%;
+}
+
+.superspecial_detail {
+  padding: 26px 0 10px;
+}
+
+.container {
+  overflow: hidden;
+}
+.StickyFooter .downloadsBtn .appbtn {
+  max-width: 80px;
+}
+.StickyFooter .downloadsBtn h2 {
+  font-size: 15px;
+}
+.StickyFooter .col-sm-5 {
+  display: inline-block;
+  float: none;
+  margin: auto !important;
+  text-align: center;
+  width: 100%;
+}
+.StickyFooter .socialLinks {
+  text-align: center;
+}
+.superspecial_detail .ss-slider-wrap .bx-controls-direction a.bx-prev {
+  margin-left: -12px;
+}
+.superspecial_detail .ss-slider-wrap .bx-controls-direction a.bx-next {
+  margin-right: -13px;
+}
+.booknow_wrap .tripInfoWrap .col-sm-4, .booknow_wrap .tripInfoWrap .col-sm-8 {
+  width: 100%;
+}
+.desitnationWrap .col-sm-3.col-sm-offset-9 {
+  float: left;
+}
+.mainSlider ul li img {
+  height: auto;
+  width: 100%;
+  min-height: 300px;
+}
+.testimonialBlock {
+  height:200px;
+  margin-top: 40px;
+  overflow: auto;
+}
+.CabBookingWrap ul.nav li {
+  display: inline-block;
+  margin-right: 5px;
+  width: 31%;
+  font-size: 12px;
+}
+.inputBox {
+  font-size: 14px;
+  margin-bottom: 7px;
+  position: relative;
+}
+.CabBookingWrap label {
+  font-weight: 300;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.superSpecial .superBox .imageBox {
+  height: 97px;
+}
+.superSpecial .superBox .imageBox h2 {
+  font-size: 10px;
+}
+.ulbox ul {
+  border: 0 solid rgb(189, 189, 189) !important;
+  font-size: 13px !important;
+  min-height: 145px !important;
+  padding: 0 !important;
+}
+#header .choose_city, #header .signIn_box, #header .support {
+  display: inline-block;
+  margin-top: 5px;
+  min-width: 32%;
+  vertical-align: top;
+  width: 32%;
+  text-align: center;
+  min-height:83px;
+}
+#header .choose_city i, #header .signIn_box i, #header .support i {
+  text-align:center;
+  float:none;
+}
+#header .choose_city i, #header .signIn_box i, #header .support i {
+  float: none !important;
+  text-align: center;
+  width: 100%;
+}
+#header .choose_city i.fa-map-marker, #header .signIn_box a i.fa-user {
+  float: none;
+  margin: 2px 0px 2px;
+  padding: 5px 9px;
+  width: auto;
+}
+#header .support span strong, #header .choose_city span strong {
+  margin-top: 2px;
+  font-size: 11px;
+  text-align: center;
+}
+#header .choose_city i.fa-angle-up {
+  margin: 0 6px 0 0;
+}
+#header .signIn_box a span {
+  float: left;
+  width: 100%;
+}
+#header .choose_city span {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  width: 100%;
+}
+#header .signIn_box a strong {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 11px;
+  margin-top: 2px;
+}
+#header .signIn_box a i.fa-angle-down, #header .choose_city i.fa-angle-down {
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 16px;
+  margin: 0 6px 0 0;
+}
+
+#header .choose_city #SelectCity {
+  position: relative;
+  text-align: left;
+  width: 286px;
+  z-index: 9999;
+}
+.bookingWrap ul {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.superSpecial .superBox ul li {
+  background: rgba(0, 0, 0, 0) url("../img/arrow.jpg") no-repeat scroll left 1px;
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  margin-bottom: 3px;
+  padding: 0 0 0 20px;
+}
+h1.title {
+  margin-top: 0;
+  font-size: 22px;
+}
+.desitnationWrap a.BoxCard {
+  height: 175px !important;
+}
+.desitnationWrap .pull-right {
+  float: right !important;
+  margin-right: 24px;
+}
+
+.booking_Wrap ul.nav li {
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: top;
+  width: 49%;
+}
+.booking_Wrap ul.nav li:last-child {
+  width:100%;
+}
+.booking_Wrap ul.nav li a {
+  font-size: 13px;
+}
+.booking_Wrap {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  box-sizing: border-box;
+  min-height: 412px;
+  padding: 20px 0;
+}
+.no-pad-left {
+	padding-left:0;
+}
+.inputBox .input_text {
+  padding: 10px 12px;
+}
+
+.radiobox_Wrap ul.radio-list li {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0;
+  width: 43%;
+}
+
+.radiobox_Wrap ul.radio-list li {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0;
+  width: 43%;
+}
+
+.vech_types .radiobox_Wrap ul.radio-list li {
+  display: inline-block;
+  margin-left: -15px;
+  margin-right: 20px;
+  margin-top: 5px;
+  width:47%;
+}
+
+}
+
+
+@media screen and (max-width: 480px) { 
+/**{border:1px solid red !important;}*/
+.desitnationWrap .col-xs-6 { width: 100%}
+.superSpecial .col-xs-3 { width: 100%}
+
+.testimonialBlock .testimonialSlider {
+  min-height: 440px;
+}
+.bx-viewport {
+  height: 440px !important;
+}
+.outerLoginWrap { width: 100%}
+.outerLoginWrap .s_icon { margin-bottom: 10px}
+
+
+.booking_Wrap ul.nav li {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 0;
+  vertical-align: top;
+  width: 49%;
+}
+#footer .col-sm-5, #footer .col-sm-4 {
+  margin-left: 24px !important;
+}
+.container {
+  overflow: hidden;
+}
+.StickyFooter .downloadsBtn .appbtn {
+  max-width: 80px;
+}
+.StickyFooter .downloadsBtn h2 {
+  font-size: 15px;
+}
+#header .choose_city {
+  min-width:100%;
+  width: 100%;
+}
+#header .support {
+  margin: 5px 0;
+  min-width: 32%;
+  padding: 3px 0;
+  width: 50%;
+}
+#header .signIn_box {
+  margin: 5px 0;
+}
+.bookingWrap ul li {
+  width: 49.4%;
+}
+.patnerlogo {
+  height: 37px;
+  margin: 3px 3px 20px;
+  width: 97px;
+}
+.superspecial_detail .ss-slider-wrap .bx-controls-direction a.bx-prev {
+  margin-left: -12px;
+}
+.superspecial_detail .ss-slider-wrap .bx-controls-direction a.bx-next {
+  margin-right: -13px;
+}
+.booknow_wrap .tripInfoWrap .col-sm-4, .booknow_wrap .tripInfoWrap .col-sm-8 {
+  width: 100%;
+}
+.applynowcpn {
+  background: rgb(248, 117, 1) none repeat scroll 0 0;
+  border: 1px solid rgb(210, 99, 0);
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 0;
+  padding: 9px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.button2, .button3 {
+  font-weight: 600;
+  margin-bottom: 22px;
+  margin-top:10px;
+}
+.CabBookingWrap {
+  font-size: 13px;
+  padding: 20px 0 0;
+}
+#header .choose_city {
+  min-width:100%;
+  width: 100%;
+}
+#header .signIn_box {
+  margin: 5px 0;
+}
+.superspecial_detail .ss-slider-wrap .bx-controls-direction a.bx-prev {
+  margin-left: -12px;
+}
+.superspecial_detail .ss-slider-wrap .bx-controls-direction a.bx-next {
+  margin-right: -13px;
+}
+.booknow_wrap .tripInfoWrap .col-sm-4, .booknow_wrap .tripInfoWrap .col-sm-8 {
+  width: 100%;
+}
+
+#header .choose_city #SelectCity {
+  position: relative;
+  z-index: 9999;
+}
+
+
+.CabBookingWrap ul.nav li {
+  display: inline-block;
+  margin-right: 5px;
+  width: 31%;
+  font-size: 12px;
+}
+.inputBox {
+  font-size: 14px;
+  margin-bottom: 7px;
+  position: relative;
+}
+.CabBookingWrap label {
+  font-weight: 300;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.bookingWrap ul li {
+  width: 100%;
+}
+ul.superTabs li {
+  text-align: center;
+  width: 32%;
+}
+ul.superTabs {
+  border-bottom: 0 none;
+}
+ul.superTabs li:nth-child(4) {
+  width: 49%;
+}
+ul.superTabs li {
+  text-align: center;
+  width: 32%;
+}
+ul.superTabs li:last-child {
+  padding-right: 0;
+  width: 46%;
+}
+
+.superSpecial .superBox .imageBox {
+  height: 110px;
+}
+.superSpecial .superBox .imageBox h2 {
+  font-size: 12px;
+}
+.ulbox ul {
+  border: 0 solid rgb(189, 189, 189) !important;
+  font-size: 13px !important;
+  min-height: 215px !important;
+  padding: 0 !important;
+}
+.desitnationWrap .col-xs-6 {
+  width: 50%;
+}
+.carBox {
+  border: 1px solid rgb(201, 201, 201);
+  color: rgb(115, 115, 115);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.carBox h2 {
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-top: 6px;
+  min-height: 30px;
+}
+.carBox p {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.CabBookingWrap ul.nav li {
+  display: inline-block;
+  margin-right: 5px;
+  width: 31%;
+  font-size: 12px;
+}
+.inputBox {
+  font-size: 14px;
+  margin-bottom: 7px;
+  position: relative;
+}
+.CabBookingWrap label {
+  font-weight: 300;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.superSpecial .superBox .imageBox {
+  height: 97px;
+}
+.superSpecial .superBox .imageBox h2 {
+  font-size: 10px;
+}
+.ulbox ul {
+  border: 0 solid rgb(189, 189, 189) !important;
+  font-size: 13px !important;
+  min-height: 145px !important;
+  padding: 0 !important;
+}
+#header .choose_city, #header .signIn_box, #header .support {
+  display: inline-block;
+  float: left;
+  margin: 6px 2px;
+  min-height: 83px;
+  min-width: 32%;
+  text-align: center;
+  vertical-align: top;
+  width: 32%;
+}
+#header .choose_city i, #header .signIn_box i, #header .support i {
+  text-align:center;
+  float:none;
+}
+#header .choose_city i, #header .signIn_box i, #header .support i {
+  float: none !important;
+  text-align: center;
+  width: 100%;
+}
+#header .choose_city i.fa-map-marker, #header .signIn_box a i.fa-user {
+  float: none;
+  margin: 2px 0px 2px;
+  padding: 5px 9px;
+  width: auto;
+}
+#header .support span strong, #header .choose_city span strong {
+  margin-top: 2px;
+  font-size: 11px;
+  text-align: center;
+}
+#header .choose_city i.fa-angle-up {
+  margin: 0 6px 0 0;
+}
+#header .signIn_box a span {
+  float: left;
+  width: 100%;
+}
+#header .choose_city span {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  width: 100%;
+}
+#header .signIn_box a strong {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 11px;
+  margin-top: 2px;
+}
+#header .signIn_box a i.fa-angle-down, #header .choose_city i.fa-angle-down {
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 16px;
+  margin: 0 6px 0 0;
+}
+
+#header .choose_city #SelectCity {
+  position: relative;
+  text-align: left;
+  width: 286px;
+  z-index: 9999;
+}
+.bookingWrap ul {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.superSpecial .superBox ul li {
+  background: rgba(0, 0, 0, 0) url("../img/arrow.jpg") no-repeat scroll left 1px;
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  margin-bottom: 3px;
+  padding: 0 0 0 20px;
+}
+h1.title {
+  margin-top: 0;
+  font-size: 22px;
+}
+.desitnationWrap a.BoxCard {
+  height: 175px !important;
+}
+.desitnationWrap .pull-right {
+  float: right !important;
+  margin-right: 24px;
+}
+
+.booking_Wrap ul.nav li {
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: top;
+  width: 49%;
+}
+.booking_Wrap ul.nav li:last-child {
+  width:100%;
+}
+.booking_Wrap ul.nav li a {
+  font-size: 13px;
+}
+.booking_Wrap {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  box-sizing: border-box;
+  min-height: 412px;
+  padding: 20px 0;
+}
+.no-pad-left {
+	padding-left:0;
+}
+.inputBox .input_text {
+  padding: 10px 12px;
+}
+
+.radiobox_Wrap ul.radio-list li {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0;
+  width: 43%;
+}
+
+.radiobox_Wrap ul.radio-list li {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0;
+  width: 43%;
+}
+
+.vech_types .radiobox_Wrap ul.radio-list li {
+  display: inline-block;
+  margin-left: -15px;
+  margin-right: 20px;
+  margin-top: 5px;
+  width:47%;
+}
+
+}
+
+
+@media screen and (max-width: 320px) { 
+
+
+.desitnationWrap .BoxDesign .overlay { padding-top: 50%}
+.desitnationWrap .BoxDesign .overlay h5 { font-size: 18px}
+.desitnationWrap .BoxDesign .overlay p { font-size: 13px; font-weight: 600}
+.desitnationWrap .BoxDesign .overlay a.bookBtn { width: inherit}
+
+.bookingWrap ul li {
+  width: 49%;
+}
+
+.testimonialBlock .testimonialSlider { min-height: 490px}
+
+#header .signIn_box { width: 100%; float: none; margin: 10px 0 5px 0}
+#header .support { width: 100%; float: none}
+
+
+.container {
+  overflow: hidden;
+}
+.StickyFooter .downloadsBtn .appbtn {
+  max-width: 80px;
+}
+.StickyFooter .downloadsBtn h2 {
+  font-size: 15px;
+}
+#header .choose_city {
+  min-width:100%;
+  width: 100%;
+}
+#header .signIn_box {
+  margin: 5px 0;
+}
+.superspecial_detail .ss-slider-wrap .bx-controls-direction a.bx-prev {
+  margin-left: -12px;
+}
+.superspecial_detail .ss-slider-wrap .bx-controls-direction a.bx-next {
+  margin-right: -13px;
+}
+.booknow_wrap .tripInfoWrap .col-sm-4, .booknow_wrap .tripInfoWrap .col-sm-8 {
+  width: 100%;
+}
+
+
+
+.CabBookingWrap ul.nav li {
+  display: inline-block;
+  margin-right: 5px;
+  width: 31%;
+  font-size: 12px;
+}
+.inputBox {
+  font-size: 14px;
+  margin-bottom: 7px;
+  position: relative;
+}
+.CabBookingWrap label {
+  font-weight: 300;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.superSpecial .superBox .imageBox {
+  height: 97px;
+}
+.superSpecial .superBox .imageBox h2 {
+  font-size: 10px;
+}
+.ulbox ul {
+  border: 0 solid rgb(189, 189, 189) !important;
+  font-size: 13px !important;
+  min-height: 145px !important;
+  padding: 0 !important;
+}
+#header .choose_city, #header .signIn_box, #header .support {
+  display: inline-block;
+  margin-top: 5px;
+  min-width: 32%;
+  vertical-align: top;
+  width: 32%;
+  text-align: center;
+  min-height:83px;
+  margin-left: 0;
+}
+.choose_city {
+  margin-right: 4px !important;
+}
+#header .choose_city i, #header .signIn_box i, #header .support i {
+  text-align:center;
+  float:none;
+}
+#header .choose_city i, #header .signIn_box i, #header .support i {
+  float: none !important;
+  text-align: center;
+  width: 100%;
+}
+#header .choose_city i.fa-map-marker, #header .signIn_box a i.fa-user {
+  float: none;
+  margin: 2px 0px 2px;
+  padding: 5px 9px;
+  width: auto;
+}
+#header .support span strong, #header .choose_city span strong {
+  margin-top: 2px;
+  font-size: 11px;
+  text-align: center;
+}
+#header .choose_city i.fa-angle-up {
+  margin: 0 6px 0 0;
+}
+#header .signIn_box a span {
+  float: left;
+  width: 100%;
+}
+#header .choose_city span {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  width: 100%;
+}
+#header .signIn_box a strong {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 11px;
+  margin-top: 2px;
+}
+#header .signIn_box a i.fa-angle-down, #header .choose_city i.fa-angle-down {
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 16px;
+  margin: 0 6px 0 0;
+}
+
+#header .choose_city #SelectCity {
+  position: relative;
+  text-align: left;
+  width: 286px;
+  z-index: 9999;
+}
+.bookingWrap ul {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.superSpecial .superBox ul li {
+  background: rgba(0, 0, 0, 0) url("../img/arrow.jpg") no-repeat scroll left 1px;
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  margin-bottom: 3px;
+  padding: 0 0 0 20px;
+}
+h1.title {
+  margin-top: 0;
+  font-size: 22px;
+}
+.desitnationWrap a.BoxCard {
+  height: 175px !important;
+}
+.desitnationWrap .pull-right {
+  float: right !important;
+  margin-right: 24px;
+}
+
+.booking_Wrap ul.nav li {
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: top;
+  width: 49%;
+}
+.booking_Wrap ul.nav li:last-child {
+  width:100%;
+}
+.booking_Wrap ul.nav li a {
+  font-size: 13px;
+}
+.booking_Wrap {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  box-sizing: border-box;
+  min-height: 412px;
+  padding: 20px 0;
+}
+.no-pad-left {
+	padding-left:0;
+}
+.inputBox .input_text {
+  padding: 10px 12px;
+}
+
+.radiobox_Wrap ul.radio-list li {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0;
+  width: 43%;
+}
+
+.radiobox_Wrap ul.radio-list li {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 0;
+  width: 43%;
+}
+
+.vech_types .radiobox_Wrap ul.radio-list li {
+  display: inline-block;
+  margin-left: -15px;
+  margin-right: 20px;
+  margin-top: 5px;
+  width:47%;
+}
+
+}

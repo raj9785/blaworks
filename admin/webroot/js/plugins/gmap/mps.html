@@ -1,0 +1,82 @@
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+  <script src="assets/jquery.geocomplete.js"></script>
+<p class="text-center text-success">Add a location</p>
+<hr>
+ <div class="container">
+ <%= form_for(@place,:html=>{:multipart => true,:remote=>true,:class=>"form-horizontal",:role=>"form"}) do |f |%>
+
+      <%= f.text_field :address,:class=>"form-control" %>
+      <p class="text-info" style="font-size:10px !important;">if you cannot find the location,Drag the marker on the map. </p>
+
+          <div id="logs" data-lat="<%=  current_user.latitude%>" data-long="<%=  current_user.longitude%>">
+              <%= current_user.address %> 
+          </div>    
+
+
+      <div id="mapnew" style="width:500px;height:500px"></div>
+
+  <%end%>
+
+  </div>   
+
+
+<script type="text/javascript">
+
+
+var lat=$('#logs').data("lat");
+var long=$('#logs').data("long");
+
+
+  var myLatlng = new google.maps.LatLng(lat,long);
+var options = {
+  map: "#mapnew",
+  location: myLatlng,
+  mapOptions: {
+    streetViewControl: false,
+    center: myLatlng,
+    mapTypeId : google.maps.MapTypeId.ROADMAP
+  },
+  markerOptions: {
+    draggable: true
+  }
+};
+
+
+function initialize(){
+$("#place_address")
+  .geocomplete(options)
+    .bind("geocode:result", function(event, result){ 
+      $('#logs').html('<b>'+result.formatted_address+'</b>');
+      var map = $("#place_address").geocomplete("map"),
+///////////////////////This code should work now as expected-STARTS 
+          marker = $("#place_address").geocomplete("marker");
+
+          //there is only a single marker, use only a single infowindow
+          if(!marker.get('infowindow')){
+            marker.set('infowindow',new google.maps.InfoWindow());
+            google.maps.event.addListener(marker, 'click', function() {
+              this.get('infowindow').open(map,this);
+            });
+          }
+      marker.get('infowindow').close();    
+      map.setZoom(15);
+      map.setCenter(result.geometry.location);
+      marker.setMap(map);
+      marker.get('infowindow').setContent(result.formatted_address)
+
+
+ ///////////////////////This code should work now as expected-ENDS  
+})
+//method ends
+//trigger the event
+.trigger('geocode:result',
+         {geometry:{location:myLatlng},
+          formatted_address:$('#logs').text()});
+}//initialize method ends
+
+$(document).ready(function(){
+  $('#mapnew').html("<p class='text-center text-alert'><b><i>Loading map...</i><i class='fa fa-spinner fa-spin fa-2x'></i></b></p>");
+//load the map after 2 seconds to avoid blurring
+setTimeout('initialize()', 3000);
+})//document ready ends
+</script>
