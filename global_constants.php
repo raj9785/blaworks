@@ -1,7 +1,5 @@
 <?php
 
-
-
 define('SUBDIR', '/'); 
 define('SUBDIR_IMAGE', '/');
 define('DBHOST', "mariadb-135.wc1");
